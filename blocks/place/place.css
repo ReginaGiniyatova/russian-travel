@@ -1,0 +1,50 @@
+.place {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 984px;
+    grid-gap: 48px;
+    display: grid;
+    grid-template:
+        "title website"
+        "title website"
+        "image description"
+        "image description"
+        / 460px auto
+}
+
+@media screen and (min-width: 680px) and (max-width: 880px) {
+    .place {
+        max-width: 720px;
+        row-gap: 48px;
+        column-gap: 28px;
+        grid-template:
+            "title website"
+            "title website"
+            "image description"
+            "image description"
+            / 340px auto
+    }
+}
+
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+    .place {
+        grid-template:
+            "title website"
+            "title website"
+            "image description"
+            "image description"
+            / 440px auto
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .place {
+        grid-template: 
+        "title"
+        "website"
+        "image"
+        "description"
+        / auto;
+        grid-gap: 32px
+    }
+}

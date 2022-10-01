@@ -1,0 +1,8 @@
+.place__description {
+    grid-area: description;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-row: auto;
+    row-gap: 26px;
+}
