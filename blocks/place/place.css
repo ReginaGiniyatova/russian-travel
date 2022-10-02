@@ -9,7 +9,7 @@
         "title website"
         "image description"
         "image description"
-        / 460px auto
+        / 460px auto;
 }
 
 @media screen and (min-width: 680px) and (max-width: 880px) {
@@ -22,7 +22,7 @@
             "title website"
             "image description"
             "image description"
-            / 340px auto
+            / 340px auto;
     }
 }
 
@@ -33,7 +33,7 @@
             "title website"
             "image description"
             "image description"
-            / 440px auto
+            / 440px auto;
     }
 }
 
@@ -45,6 +45,6 @@
         "image"
         "description"
         / auto;
-        grid-gap: 32px
+        grid-gap: 32px;
     }
 }
