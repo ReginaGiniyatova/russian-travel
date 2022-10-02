@@ -1,21 +1,19 @@
 .footer__copyright {
-    grid-area: copyright;
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-
-    text-align: right;
-
-    color: #FFFFFF;
+  grid-area: copyright;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 720px) {
-    .footer__copyright {
-        margin: 16px 0 0 0;
-        justify-self: start;
-        line-height: 14px;
-    }
+  .footer__copyright {
+    margin: 16px 0 0 0;
+    justify-self: start;
+    line-height: 14px;
+  }
 }
