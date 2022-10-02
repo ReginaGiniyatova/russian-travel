@@ -6,8 +6,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color: white;
-    transition: opasity .3s ease-in-out;
+
+    color: #FFFFFF;
+    transition: opacity .3s ease-in-out;
 }
 
 .footer__link:hover {

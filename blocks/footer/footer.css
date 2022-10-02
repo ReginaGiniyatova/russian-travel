@@ -1,24 +1,45 @@
 .footer {
     max-width: 1184px;
-    margin: 92px 48px 0 48px;
+    margin: 92px 0 0 0;
     padding: 0 0 24px 0;
     min-height: 18px;
     display: grid;
-    grid-template-columns: repeat(5, auto) 1fr;
-    column-gap: 18px;
+
+    grid-template: 
+        "links copyright"
+        / 1fr 1fr
+    ;
+
+    grid-gap: 18px;
 }
 
 @media screen and (min-width: 1280px) {
     .footer {
-        margin: 92px auto o auto;
+        margin: 92px auto 0 auto;
     }
 }
+
+@media screen and (min-width: 800px) and (max-width: 1184px) {
+    .footer {
+        margin: 92px 48px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0 24px;
+    }
+}
+
 
 @media screen and (max-width: 720px) {
     .footer {
         margin: 64px 16px 0 16px;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, auto);
+            grid-template: 
+                "links" 
+                "copyright"
+    ;
         row-gap: 32px;
     }
 }
+
