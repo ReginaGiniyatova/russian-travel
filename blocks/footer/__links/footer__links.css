@@ -1,7 +1,7 @@
 .footer__links {
   grid-area: links;
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(5, min-content);
   column-gap: 18px;
 }
 

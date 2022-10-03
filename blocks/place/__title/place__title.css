@@ -10,11 +10,19 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 680px) and (max-width: 1024px) {
+@media screen and (min-width: 881px) and (max-width: 1024px) {
   .place__title {
-    max-width: calc(100% - 32px);
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 440px;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 880px) {
+  .place__title {
     font-size: 42px;
-    line-height: 35px;
+    line-height: 46px;
+    max-width: 330px;
   }
 }
 

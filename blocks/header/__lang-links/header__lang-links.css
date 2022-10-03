@@ -3,4 +3,5 @@
   flex-direction: row;
   column-gap: 18px;
   align-self: flex-end;
+  list-style-type: none;
 }
